@@ -1,0 +1,17 @@
+Para que o projeto execute corretamente, instale o NodeJS, o MongoDB e siga os seguintes passos:
+   - Faça o git clone ou o download os arquivos
+   - Abra o CMD
+   - Acesse a pasta onde esta o projeto
+   - E digite 'npm install' (Sem as aspas)
+   - Irá criar uma pasta com o nome 'node_modules'
+   - Após isso, crie uma pasta no diretorio raiz, com o nome 'data' (Sem as aspas)
+   - Para executar o mongodb, siga:
+	- Abra o CMD
+        - Acesse a pasta onde o MongoDB está instalado
+        - Ex.: 'cd "C:\Program Files\MongoDB\Server\3.2\bin" '
+        - E digite 'start mongodb.exe --dbpath [diretorio do seu projeto]' (Sem as aspas)
+        - Ex.: 'start mongodb.exe --dbpath C:\Users\Asus\Desktop\NodeJS '
+   - Depois volta para o CMD que digitou 'npm install'
+   - E digita 'node app.js' (Sem as aspas)
+   - Abra o navegador
+   - Digite 'localhost:3000' (Sem as aspas)
